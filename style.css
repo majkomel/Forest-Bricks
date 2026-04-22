@@ -1,0 +1,63 @@
+@font-face{
+	font-family:'font';
+	src:url('Audiowide/AudioWide-Regular.ttf') format('truetype');
+}
+body {
+    margin: 0;             
+    display: flex;        
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;  
+	background: #253d29;
+background: radial-gradient(circle,rgba(37, 61, 41, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	flex-direction: column;
+	
+}
+#vsebina {
+    display: flex; /* To postavi igro in podatke drug POLEG drugega */
+    flex-direction: row;
+    align-items: flex-start;
+	
+}
+#igra{
+	height:500px;
+	width: 588px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 25px rgba(200, 255, 200, 0.3), 0 6px 25px rgba(200, 255, 200, 0.2);
+	margin-top:20px;
+}
+#podatki{
+	height:500px;
+	width: 225px;
+	display: flex;
+	margin: 20px;
+	font-family: 'font';
+	flex-direction: column;
+	text-align: left;
+	background: #101510;
+	color: white;
+	padding-left:5px;
+	box-shadow: 0 4px 25px rgba(200, 255, 200, 0.3), 0 6px 25px rgba(200, 255, 200, 0.2);
+}
+#canvas {
+    background: #101510;
+    
+}
+#naslov{
+	height: 50px;
+	width: 808px;
+	justify-content: center;   /* Vodoravna poravnava na sredino */
+    align-items: center;
+	display: flex;
+	color: white;
+	font-size: 30px;
+	font-family: 'font';
+}
+mark{
+	text-decoration: none;
+	background-color: transparent;
+	color:white;
+	font-family: 'font';
+}
